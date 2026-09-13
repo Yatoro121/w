@@ -23,12 +23,8 @@ const MONTHS = [
 
 
 const SUBJECTS = [
-  "Математика",
-  "Физика",
-  "Информатика",
-  "Русский язык",
-  "История",
-  "Таджикский язык"
+  "Cтудент"
+  
 ];
 
 
@@ -279,7 +275,7 @@ function App() {
   );
 
   const [subject, setSubject] = useState(() =>
-    load("journal_subject", "Математика")
+    load("journal_subject", "Студент")
   );
 
   const [year, setYear] = useState(() =>
